@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .header{
+        @apply flex justify-between items-center h-16 px-6 md:px-20 text-2xl;
+    } 
+    .logo{
+        @apply text-2xl font-serif leading-5 flex justify-center items-center gap-2 select-none
+    }
+    .logo svg{
+        @apply text-blue-900 text-4xl
+    }
+    .logo span{
+        @apply font-sans text-base
+    }
+    .menu{
+        @apply relative cursor-pointer text-4xl select-none
+    }
+    .menuOn{
+        @apply text-blue-500 drop-shadow-lg shadow-blue-500 duration-75 transition
+    }
+    .navShow{
+        @apply absolute visible top-14 right-1 flex flex-col w-max
+    }
+    .navShow a{
+        @apply text-xl px-4 py-2 bg-neutral-50/60 text-neutral-900 hover:bg-neutral-900 hover:text-neutral-50 transition text-right border-b-2 border-b-neutral-900
+    }
+    .navHide{
+        @apply absolute hidden
+    }
+    
+}

@@ -1,0 +1,46 @@
+{
+    "cityscape":[
+        {
+          "url":  "1.jpg",
+          "caption": "Hong Kong"
+        },
+        {
+            "url":  "2.jpg",
+            "caption": "Busy Bridge"
+        },
+        {
+            "url":  "3.jpg",
+            "caption": "New York"
+        }
+    ],
+
+    "nature":[
+        {
+            "url":  "4.jpg",
+            "caption": "Shore"
+        },
+        {
+            "url":  "5.jpg",
+            "caption": "Lake"
+        },
+        {
+            "url":  "6.jpg",
+            "caption": "Autumn"
+        }
+    ],
+
+    "history":[
+        {
+            "url":  "7.jpg",
+            "caption": "Acropolis"
+        },
+        {
+            "url":  "8.jpg",
+            "caption": "Colosseum"
+        },
+        {
+            "url":  "9.jpg",
+            "caption": "Machu Picchu"
+        }
+    ]
+}
